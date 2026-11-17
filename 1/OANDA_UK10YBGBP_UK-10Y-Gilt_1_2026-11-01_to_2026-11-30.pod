@@ -6,7 +6,7 @@
   "chunk_end": "2026-11-30",
   "parquet_file": "OANDA_UK10YBGBP_UK-10Y-Gilt_1_2026-11-01_to_2026-11-30.parquet",
   "data_file": "OANDA_UK10YBGBP_UK-10Y-Gilt_1_2026-11-01_to_2026-11-30.parquet",
-  "row_count": 5366,
+  "row_count": 6548,
   "first_candle": {
     "time": 1793606400,
     "Time": "2026-11-02T08:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 5
   },
   "last_candle": {
-    "time": 1794506340,
-    "Time": "2026-11-12T17:59:00.000000000Z",
-    "open": 85.353,
-    "high": 85.358,
-    "low": 85.348,
-    "close": 85.358,
-    "volume": 8
+    "time": 1794851940,
+    "Time": "2026-11-16T17:59:00.000000000Z",
+    "open": 84.925,
+    "high": 84.925,
+    "low": 84.925,
+    "close": 84.925,
+    "volume": 1
   },
   "csv_file": "OANDA_UK10YBGBP_UK-10Y-Gilt_1_2026-11-01_to_2026-11-30.parquet",
-  "csv_row_count": 5366,
+  "csv_row_count": 6548,
   "csv_first_candle": {
     "time": 1793606400,
     "Time": "2026-11-02T08:00:00.000000000Z",
@@ -37,26 +37,32 @@
     "volume": 5
   },
   "csv_last_candle": {
-    "time": 1794506340,
-    "Time": "2026-11-12T17:59:00.000000000Z",
-    "open": 85.353,
-    "high": 85.358,
-    "low": 85.348,
-    "close": 85.358,
-    "volume": 8
+    "time": 1794851940,
+    "Time": "2026-11-16T17:59:00.000000000Z",
+    "open": 84.925,
+    "high": 84.925,
+    "low": 84.925,
+    "close": 84.925,
+    "volume": 1
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-11-13T06:13:51.000000000Z",
-  "generated_at": "2026-11-13T06:13:51.000000000Z",
+  "verified_at": "2026-11-17T07:36:33.000000000Z",
+  "generated_at": "2026-11-17T07:36:33.000000000Z",
   "download_request": {
-    "total_api_blocks_in_run": 1,
-    "chunk_api_blocks": 1,
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
     "chunk_permanent_errors": 0,
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-11-11T17:54:00Z",
-        "to": "2026-11-12T18:00:00Z",
+        "from": "2026-11-12T17:54:00Z",
+        "to": "2026-11-16T05:14:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-11-16T05:14:00Z",
+        "to": "2026-11-16T18:00:00Z",
         "code": 200,
         "msg": "OK"
       }
